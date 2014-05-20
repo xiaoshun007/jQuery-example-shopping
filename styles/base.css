@@ -1,0 +1,41 @@
+﻿/**
+ * 全局样式文件
+ */
+
+* {
+	margin: 0;
+	padding: 0;
+	word-wrap: bread-word;
+	word-break: break-all;
+}
+
+body {
+	background: #FFF;
+	color: #333;
+	font: 12px/1.6em Helvetica, Arial, sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: #0287CA;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+ul, li {
+	list-style: none;
+}
+
+img {
+	border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 1em;
+}
+
+html {
+	overflow: -moz-scrollbars-vertical;
+}

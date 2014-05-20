@@ -1,0 +1,166 @@
+﻿/* 正文样式 */
+#content {
+	margin: 10px auto;
+	width: 800px;
+}
+
+/* 左侧样式 */
+#content_left {
+	background: #EEE;
+	border: 1px solid #AAAAAA;
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+}
+
+/*
+	为了让module_up_down图片在右上角，可以让外侧的div的position设置成relative,
+	module_up_down的position设置成absolute
+*/
+.global_module {
+	position: relative;
+	background: #EEEEEE;
+	padding-bottom: 8px;
+}
+
+.module_up_down {
+	position: absolute;
+	top: 9px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.global_module h3 {
+	background: #3B5998;
+	color: #FFF;
+	height: 26px;
+	line-height: 26px;
+	text-indent: 6px;
+}
+
+#content_left .news ul { 
+	padding:5px 0 5px 15px; 
+}
+#content_left .procatalog ul { 
+	padding:5px 0 5px 15px; 
+}
+
+/* 最新动态 */
+#content_left  .scrollNews {
+	width: 200px;
+	height: 85px;
+	line-height: 20px;
+	overflow: hidden;
+	background: #FFF;
+}
+
+#content_left .scrollNews li {
+	height: 20px;
+}
+
+.procatalog .m-treeview{
+	background: #FFF;
+}
+
+.procatalog .m-treeview li span {
+	cursor: pointer;
+}
+
+/* 产品分类列表样式 */
+.procatalog .m-treeview li.m-expanded {
+	padding-left: 16px;
+	background: url("../images/treeview-expanded.gif") no-repeat 0 0;
+}
+
+.procatalog .m-treeview li.m-expanded ul li {
+	list-style-image: url(../images/treeview-item.gif);
+}
+
+/* 右侧样式 */
+#content_right {
+	background: #EEE;
+	border: 1px solid #AAAAAA;
+	width: 586px;
+	float: left;
+}
+
+/* 滚动广告样式 */
+#content_right .ad {
+	margin-bottom: 10px;
+	width: 586px;
+	height: 150px;
+	overflow: hidden;
+	position: relative;
+}
+
+#content_right .slider, #content_right .num {
+	position: absolute;
+}
+
+/* 设置<ul class="num">元素的right和bottom样式，从而使其定位到右下角 */
+#content_right .num {
+	right: 5px;
+	bottom: 5px;
+}
+
+#content_right .num li {
+	float: left;
+	color: #FF7300;
+	text-align: center;
+	line-height: 16px;
+	width: 16px;
+	height: 16px;
+	font-family: Arial;
+	font-size: 12px;
+	cursor: pointer;
+	overflow: hidden;
+	margin: 3px 1px;
+	border: 1px solid #FF7300;
+	background-color: #FFF;
+}
+
+/* 新款上市 */
+#content_right  .prolist {
+	position: relative;
+	height: 220px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	border: 1px solid #AAA;
+	background: #FFF;
+}
+
+#content_right .prolist .prolist_content {
+	position: absolute;
+	width: 1800px;
+	top: 26px;
+	left: 0px;
+	padding: 20px 0 0 8px;
+}
+
+.module_left_right {
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	cursor: pointer;
+}
+
+#content_right .prolist ul li {
+	float: left;
+	display: inline;
+	text-align: center;
+	margin-right: 22px;
+}
+
+#content_right .prolist ul li span {
+	display: block;
+	overflow: hidden;
+}
+
+#content_right .prolist ul li img {
+	display: block;
+	width: 124px;
+	height: 124px;
+	background:#EEE; 
+	border:0;
+}
+
